@@ -115,7 +115,7 @@ def put_key(html_txt, apikey):
         the soup of this html
     """
     apistring = ("https://maps.googleapis.com/maps/api/js?"
-                 "key=%s&callback=initialize&libraries=visualization"
+                 "key=###################################"
                  "&sensor=true_or_false")
     soup = bs4.BeautifulSoup(html_txt, 'html.parser')
     soup.script.decompose() #remove the existing script tag
